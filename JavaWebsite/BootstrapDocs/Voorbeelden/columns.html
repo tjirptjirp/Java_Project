@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title> Columns </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <style>
+    #div1 {
+      background-color: lightgreen;
+      height: 250px;
+    }
+    #div2 {
+      background-color: lightblue;
+      height: 250px;
+    }
+    #div3 {
+      background-color: indianred;
+      height: 250px;
+    }
+    #div4 {
+      background-color: orange;
+      height: 250px;
+    }
+    #div5 {
+      background-color: blueviolet;
+      height: 250px;
+    }
+    #div6 {
+      background-color: chartreuse;
+      height: 250px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <h2>Voorbeeld 1</h2>
+
+    <!-- Altijd 12 kolommen breed ( 100% ) -->
+    <div class="col-12" id="div1"></div>
+    <!-- Altijd 6 kolommen breed ( 50% ) -->
+    <div class="col-6" id="div2"></div>
+    <!-- Extra small: 4 kolommen breed. Small: 6 kolommen. Medium: 8 kolommen. Large: 12 kolommen. -->
+    <div class="col-4 col-sm-6 col-md-8 col-lg-12" id="div3"></div>
+
+    <hr>
+    <h2>Voorbeeld 2</h2>
+
+    <!-- Automatische breedte bepaling -->
+    <div class="row no-gutters mb-4">
+      <div class="col" id="div4">1</div>
+      <div class="col" id="div5">2</div>
+    </div>
+
+    <div class="row no-gutters mb-4">
+      <div class="col" id="div4">1</div>
+      <div class="col" id="div5">2</div>
+      <div class="col" id="div6">3</div>
+    </div>
+  
+    <!-- 
+      Extra notitie: 
+      Een ID mag maar een keer voorkomen.
+      Voor het gemaktzucht van het voorbeeld heb ik het twee keer gebruikt.
+    -->
+    
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title> Containers </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <style>
+    /* Wanneer de viewport een maximale grootte van 599 pixels heeft */
+    @media screen and (max-width: 600px){
+      .container {
+        max-width: 50%;
+      }
+    }
+    /* Wanneer de viewport een minimale grootte van 600 pixels heeft */
+    @media screen and (min-width: 600px){
+      .container {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- Container met een breedte van 100% -->
+  <div class="container-fluid" style="background-color: lightgreen">
+    <p>container-fluid</p>
+  </div>
+    
+  <!-- Container met een variabele breedte -->
+  <div class="container" style="background-color: lightblue">
+    <p>container</p>
+  </div>
+
+</body>
+
+</html>

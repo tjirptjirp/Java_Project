@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title> Formulier </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+
+  <!-- Extra notitie: Kopieer deze code en plak het in een pagina binnen de CMS tekst editor om de grafische huisstijl effect te zien -->
+
+  <!-- Responsive formulier -->
+  <div class="container-fluid pt-4">
+    <form role="form" name="search" action="" method="post">
+      <!-- Zoekveld -->
+      <div class="form-row mb-1">
+        <div class="col-12 col-sm-6 mb-2 mb-sm-0">
+          <input type="text" class="form-control form-style pl-2 pr-2 mt-0" name="keyword" placeholder="Zoekwoord"
+            value="">
+        </div>
+        <!-- Select -->
+        <div class="col-12 col-sm-3 mb-2 mb-sm-0">
+          <select class="form-control form-style pl-1 pr-1" name="type">
+            <option value="video">Video's</option>
+            <option value="playlist">Afspeellijsten</option>
+            <option value="channel">Kanalen</option>
+          </select>
+        </div>
+        <!-- Submit knop -->
+        <div class="col-12 col-sm-3 mb-0">
+          <button type="submit" class="form-control btn btn-secondary m-0" name="search">Zoeken</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

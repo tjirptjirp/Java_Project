@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title> Centreren </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <style>
+    #div1 {
+      background-color: lightgreen;
+      height: 100px;
+    }
+    #div2 {
+      background-color: lightblue;
+      height: 100px;
+    }
+    #div3 {
+      background-color: indianred;
+      height: 100px;
+    }
+    #div4 {
+      background-color: orange;
+      height: 100px;
+    }
+    #div5 {
+      background-color: blueviolet;
+      height: 100px;
+    }
+    #div6 {
+      background-color: chartreuse;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row no-gutters mb-4">
+      <!-- Centreert automatisch de twee divs  -->
+      <div class="col-4 mx-auto" id="div1">Lorem Ipsum</div>
+      <div class="col-4 mx-auto" id="div2">Lorem Ipsum</div>
+    </div>
+
+    <!-- Centreert alles binnen de div -->
+    <div class="col text-center mb-4" id="div3">
+      <p>Lorem Ipsum</p>
+    </div>
+    
+    <div class="row no-gutters mb-4">
+      <!-- Centreert de inhoud van de twee divs -->
+      <div class="col-4 text-center" id="div4">Lorem Ipsum</div>
+      <div class="col-4 text-center" id="div5">Lorem Ipsum</div>
+    </div>
+
+    <!-- Centreert de div en de inhoud -->
+    <div class="col-6 mx-auto text-center mb-4" id="div6">Lorem Ipsum</div>
+
+  </div>
+
+</body>
+
+</html>
